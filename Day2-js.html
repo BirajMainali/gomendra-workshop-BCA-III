@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let student = {
+            name: "John",
+            age: 25,
+            rollNo: "123",
+            class: "10th",
+            address: {
+                city: "Delhi",
+                state: "Delhi",
+                country: "India"
+            }
+        }
+
+        let result = getInt(1000, 2, 5);
+        let result2 = getInt(20, 1, 3);
+        console.log("Result", result, result1);
+
+
+        function getInt(p, t, r) {
+            let si = (p * t * r) / 100;
+            return si;
+        }
+
+        console.log(student.name, student.address.city);
+    </script>
+</body>
+
+</html>
